@@ -17,7 +17,7 @@ Analizza i report e genera l'Artifact definitivo chiamato Ultimate_Refactoring_B
 
 2. Risoluzione dei Conflitti: Ci sono suggerimenti in contrasto tra loro? (es. un report consiglia un pattern per la pulizia, ma un altro dice che ucciderà le performance). Se sì, decidi tu quale strada prendere per Android 15, giustificando la scelta.
 
-3. Falsi Positivi Scartati: Elenca esplicitamente i consigli dei 3 report che hai deciso di ignorare perché considerati "over-engineering" o pericolosi per il limite critico dei 1000+ elementi.
+3. Falsi Positivi Scartati: Elenca esplicitamente i consigli dei 3 report che hai deciso di ignorare perché considerati "over-engineering" o pericolosi per il contesto critico.
 
 4. La Roadmap Definitiva: Un singolo piano sequenziale, step-by-step, su come procedere al refactoring. Deve essere ordinato per priorità: prima i file che causano crash/OOM, poi i memory leak, infine le pulizie architetturali e tutto il resto.
 
