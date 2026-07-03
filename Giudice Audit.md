@@ -4,18 +4,18 @@ LIMITAZIONI OPERATIVE (CRITICO):
 
 NON eseguire alcuna scansione globale del workspace. Ti è assolutamente vietato mappare le directory o ricominciare l'audit da capo.
 
-Basati ESCLUSIVAMENTE sui 3 report che ti indicherò (o fornirò in allegato/chat).
+Basati ESCLUSIVAMENTE sui report che ti indicherò (o fornirò in allegato/chat).
 
-Puoi usare i tuoi tool di lettura per aprire file .kt o .xml specifici SOLO E SOLTANTO SE c'è un conflitto tra i report e hai bisogno di verificare il codice reale per prendere una decisione.
+Puoi usare i tuoi tool di lettura per aprire file SOLO E SOLTANTO SE c'è un conflitto tra i report e hai bisogno di verificare il codice reale per prendere una decisione.
 
 IL TUO OBIETTIVO:
-Ho 3 documenti di sintesi e 2 documenti con focus uno su performance e l altro su codice pulito. Il progetto (SDK 35) ha un requisito vitale: deve scalare in modo estremo per supportare oltre 1000+ punti immagine senza OOM o lag, e passare da un profilo ad un altro.
+Il progetto ha un requisito vitale: deve scalare in modo estremo per supportare oltre 1000+ punti immagine senza OOM o lag, e passare da un profilo ad un altro.
 
 Analizza i report e genera l'Artifact definitivo chiamato Ultimate_Refactoring_Blueprint.md, strutturato in questo modo:
 
 1. Il Consenso Architetturale: Quali sono le vulnerabilità critiche su cui tutti (o la maggior parte) i report concordano? Queste diventano la priorità assoluta.
 
-2. Risoluzione dei Conflitti: Ci sono suggerimenti in contrasto tra loro? (es. un report consiglia un pattern per la pulizia, ma un altro dice che ucciderà le performance). Se sì, decidi tu quale strada prendere per Android 15, giustificando la scelta.
+2. Risoluzione dei Conflitti: Ci sono suggerimenti in contrasto tra loro? (es. un report consiglia un pattern per la pulizia, ma un altro dice che ucciderà le performance). Se sì, decidi tu quale strada prendere per Android 15+, giustificando la scelta.
 
 3. Falsi Positivi Scartati: Elenca esplicitamente i consigli dei 3 report che hai deciso di ignorare perché considerati "over-engineering" o pericolosi per il contesto critico.
 
