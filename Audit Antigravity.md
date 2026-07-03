@@ -27,7 +27,7 @@ Regola di sezionamento: I blocchi devono essere bilanciati e di dimensioni conte
 *** Fase 3: Regole e Output per l'Audit (Da applicare blocco per blocco in seguito) **
 Quando ti autorizzerò ad analizzare un blocco specifico, dovrai leggerne a fondo i file e generare un nuovo artifact "Specifica di Refactoring" per quel blocco, applicando queste REGOLE RIGIDE:
 
-Regola 1 - Scalabilità Estrema (CRITICO): L'app (Pixel 10 Pro, SDK 35/36) deve supportare 1000+ punti di imperfezione con immagini, ciascuno con storiografia, profili e varianti. Segnala spietatamente qualsiasi cosa causerebbe OOM, l'assenza di paginazione o un pessimo caching.
+Regola 1 - Scalabilità Estrema (CRITICO): L'app deve supportare oltre 1000+ punti di imperfezione, ciascuno con immagini e storiografia su ogni sfondo diverso (chiamato variante), e possibilità di avere più profili, con ognuno un set definito di varianti. Segnala spietatamente qualsiasi cosa causerebbe OOM, l'assenza di paginazione o un pessimo caching.
 
 Regola 2 - Zero Tolleranza Anti-Pattern: Cerca memory leak, accoppiamento stretto, logica di business nella UI, chiamate bloccanti sul main thread e cattiva gestione del ciclo di vita.
 
