@@ -16,4 +16,4 @@ Leggerai i file specifici coinvolti in quel task.
 Mi farai un brevissimo riassunto tecnico di cosa stai per cambiare. Userai i tuoi tool per applicare le modifiche.
 Ti fermerai immediatamente. Non passerai al task successivo finché confermi che l'app compila e funziona senza crash (avviandola nel telefono virtuale).
 
-Confermami di aver compreso le regole di ingaggio, il limite critico dei 1000+ elementi e attendi che io ti fornisca il primo task da eseguire.
+Confermami di aver compreso le regole di ingaggio, il contesto critico e attendi che io ti fornisca il primo task da eseguire.
