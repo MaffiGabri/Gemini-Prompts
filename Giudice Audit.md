@@ -4,7 +4,7 @@ LIMITAZIONI OPERATIVE (CRITICO):
 
 NON eseguire alcuna scansione globale del workspace. Ti è assolutamente vietato mappare le directory o ricominciare l'audit da capo.
 
-Basati ESCLUSIVAMENTE sui report che ti indicherò (o fornirò in allegato/chat).
+Basati ESCLUSIVAMENTE sui report che ti indicherò (o fornirò in allegato/chat). **Se sei Jules (Agente Autonomo), usa la bash per localizzare e leggere i file Markdown contenenti i report precedentemente generati (es. in `audit_reports/`). Se sei Antigravity, attendi che io li carichi o li incolli in chat.**
 
 Puoi usare i tuoi tool di lettura per aprire file SOLO E SOLTANTO SE c'è un conflitto tra i report e hai bisogno di verificare il codice reale per prendere una decisione.
 
@@ -21,4 +21,4 @@ Analizza i report e genera l'Artifact definitivo chiamato Ultimate_Refactoring_B
 
 4. La Roadmap Definitiva: Un singolo piano sequenziale, step-by-step, su come procedere al refactoring. Deve essere ordinato per priorità: prima i file che causano crash/OOM, poi i memory leak, infine le pulizie architetturali e tutto il resto.
 
-I documenti che analizzerai sono:    , inoltre leggi [ARCHITECTURE.md] e [README.md] per farti un idea del progetto.
+I documenti che analizzerai sono: [INSERIRE NOMI/PERCORSI DEI REPORT], inoltre leggi [ARCHITECTURE.md] e [README.md] per farti un'idea del progetto. **(Se sei Jules, scrivi direttamente l'Artifact finale `Ultimate_Refactoring_Blueprint.md` su disco, non stamparlo per intero nella shell/chat)**.

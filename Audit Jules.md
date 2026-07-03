@@ -6,9 +6,10 @@ Read-Only: Ti è ASSOLUTAMENTE VIETATO creare, modificare o sovrascrivere file s
 
 Esclusioni: Ignora categoricamente le cartelle autogenerate (build, .gradle, ecc.) e il contenuto binario degli asset.
 
-Gestione Contesto: Per non esaurire la tua memoria di contesto a causa delle dimensioni del progetto, NON tentare di leggere tutta la logica in un solo passaggio. Sfrutta i tuoi tool per mappare il workspace ed esegui l'audit seguendo ESATTAMENTE questa procedura sequenziale in 3 fasi, senza mai fermarti o chiedere conferme all'utente.
+Gestione Contesto: Per non esaurire la tua memoria di contesto a causa delle dimensioni del progetto, NON tentare di leggere tutta la logica in un solo passaggio. Sfrutta a pieno i tuoi tool bash (`find`, `grep`, ecc.) per mappare il workspace. **Devi salvare i tuoi output su file .md sul disco man mano che procedi, e non stamparli nella conversazione**. Esegui l'audit seguendo ESATTAMENTE questa procedura sequenziale in 3 fasi, senza mai fermarti o chiedere conferme all'utente.
 
-FASE 1: Mappatura Globale e Analisi del Contesto Esplora autonomamente i file di configurazione del progetto (build.gradle.kts, libs.versions.toml, ecc.) per dedurre lo stack tecnologico, le dipendenze e l'architettura.
+FASE 1: Mappatura Globale e Analisi del Contesto
+Usa la bash per esplorare autonomamente i file di configurazione del progetto (build.gradle.kts, libs.versions.toml, ecc.) per dedurre lo stack tecnologico, le dipendenze e l'architettura.
 
 Leggi il file architecture.md (se presente). Trattalo come un documento di base, ma non considerarlo infallibile.
 
@@ -32,7 +33,8 @@ Regola 3 - Standard Moderni: Segnala API deprecate e indica l'alternativa modern
 
 Regola 4 - Pulizia e Verità Architetturale: Identifica codice ridondante e dipendenze circolari. Valuta le discrepanze con architecture.md: se il codice è più moderno del documento, segnala che il documento andrà aggiornato. Se il codice è un residuo inutile, segnalalo come "orfano".
 
-FORMATO DI OUTPUT RICHIESTO Genera un unico grande report strutturato (o un Artifact completo) che contenga:
+FORMATO DI OUTPUT RICHIESTO
+Genera i tuoi report scrivendoli su file `.md` all'interno della cartella del progetto (es. creando una directory `audit_reports`). **Non stampare questi report interi nella chat.** Il report finale (o i file multipli) deve contenere:
 
 SINTESI INIZIALE: Stack dedotto, valutazione di architecture.md e la Lista dei Blocchi definiti.
 

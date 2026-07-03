@@ -11,9 +11,12 @@ Singolo Task alla Volta: Ti è vietato fare refactoring massivi. Lavoreremo su u
 Qualità del Codice: Scrivi in Kotlin idiomatico. Usa Coroutines/Flow, UDF (Unidirectional Data Flow) e assicurati che non ci siano chiamate bloccanti sul main thread.
 
 COME PROCEDEREMO (IL WORKFLOW):
-Quando ti indicherò quale task (o step) voglio affrontare oggi, tu farai questo:
+Quando ti indicherò quale task (o step) voglio affrontare, tu farai questo:
 Leggerai i file specifici coinvolti in quel task.
 Mi farai un brevissimo riassunto tecnico di cosa stai per cambiare. Userai i tuoi tool per applicare le modifiche.
-Ti fermerai immediatamente. Non passerai al task successivo finché confermi che l'app compila e funziona senza crash (avviandola nel telefono virtuale).
+Ti fermerai immediatamente dopo aver applicato le modifiche.
+
+- **Se sei Antigravity (Chat):** Compila e testa l'app automaticamente nell emulatore. Non passare al task successivo finché confermi che funziona senza crash.
+- **Se sei Jules (Autonomo):** Usa immediatamente il tuo ambiente bash per compilare il progetto (es. `./gradlew assembleDebug` o lo script di build fornito). Analizza l'output del log e correggi autonomamente gli eventuali errori di compilazione prima di procedere al task successivo.
 
 Confermami di aver compreso le regole di ingaggio, il contesto critico e attendi che io ti fornisca il primo task da eseguire.

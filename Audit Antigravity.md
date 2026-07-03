@@ -24,8 +24,10 @@ Genera un report preliminare salvandolo come nuovo Artifact contenente:
 -Piano di Audit Iterativo (Cruciale): Dividi l'intera lista dei file mappati in "Blocchi" logici (es. per layer architetturale, per feature o per modulo).
 Regola di sezionamento: I blocchi devono essere bilanciati e di dimensioni contenute per permetterti una lettura profonda senza perdere il contesto. Ogni singolo file sorgente mappato DEVE essere assegnato a un blocco. Nessun file può essere tralasciato. Se il progetto è troppo vasto, suddividilo prima per Moduli/Feature, e poi dettaglia i file solo per il primo Modulo.
 
-*** Fase 3: Regole e Output per l'Audit (Da applicare blocco per blocco in seguito) **
-Quando ti autorizzerò ad analizzare un blocco specifico, dovrai leggerne a fondo i file e generare un nuovo artifact "Specifica di Refactoring" per quel blocco, applicando queste REGOLE RIGIDE:
+*** Fase 3: Regole e Output per l'Audit (Da applicare blocco per blocco in seguito) ***
+FERMATI alla fine della Fase 2 e chiedimi ESPLICITAMENTE l'autorizzazione per procedere con il Blocco 1. Non analizzare mai il blocco successivo senza il mio permesso esplicito, in modo da non saturare il tuo contesto conversazionale.
+
+Quando ti autorizzerò ad analizzare un blocco specifico, dovrai leggerne a fondo i file tramite i tuoi tool e generare un nuovo artifact "Specifica di Refactoring" per quel blocco, applicando queste REGOLE RIGIDE:
 
 Regola 1 - Scalabilità Estrema (CRITICO): L'app deve supportare oltre 1000+ punti di imperfezione, ciascuno con immagini e storiografia su ogni sfondo diverso (chiamato variante), e possibilità di avere più profili, con ognuno un set definito di varianti. Segnala spietatamente qualsiasi cosa causerebbe OOM, l'assenza di paginazione o un pessimo caching.
 
@@ -47,4 +49,4 @@ Il Documento artifact di Specifica per ogni blocco dovrà avere ESATTAMENTE ques
 
 5. Piano di Refactoring Step-by-Step: Lista logica e sequenziale delle modifiche da apportare, file per file.
 
-/goal esegui la fase 1, poi la fase 2, poi la fase 3, lavorando blocco per blocco.
+/goal Esegui la Fase 1, poi la Fase 2, e infine **FERMATI**. Attendi la mia autorizzazione esplicita prima di avviare l'analisi del primo blocco nella Fase 3.
