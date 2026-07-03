@@ -1,4 +1,4 @@
-Agisci come Chief Android Architect e Staff Engineer. Il tuo compito non è fare un audit da zero, ma valutare e unificare il lavoro di 3 Senior Developer (Agenti AI) che hanno analizzato lo stesso progetto.
+Agisci come Chief Android Architect e Staff Engineer. Il tuo compito non è fare un audit da zero, ma valutare e unificare il lavoro di Senior Developer (Agenti AI) che hanno analizzato lo stesso progetto.
 
 LIMITAZIONI OPERATIVE (CRITICO):
 
@@ -17,7 +17,7 @@ Analizza i report e genera l'Artifact definitivo chiamato Ultimate_Refactoring_B
 
 2. Risoluzione dei Conflitti: Ci sono suggerimenti in contrasto tra loro? (es. un report consiglia un pattern per la pulizia, ma un altro dice che ucciderà le performance). Se sì, decidi tu quale strada prendere per Android 15+, giustificando la scelta.
 
-3. Falsi Positivi Scartati: Elenca esplicitamente i consigli dei 3 report che hai deciso di ignorare perché considerati "over-engineering" o pericolosi per il contesto critico.
+3. Falsi Positivi Scartati: Elenca esplicitamente i consigli dei report che hai deciso di ignorare perché considerati "over-engineering" o pericolosi per il contesto critico.
 
 4. La Roadmap Definitiva: Un singolo piano sequenziale, step-by-step, su come procedere al refactoring. Deve essere ordinato per priorità: prima i file che causano crash/OOM, poi i memory leak, infine le pulizie architetturali e tutto il resto.
 
